@@ -1,0 +1,225 @@
+body {
+    /* font-family: "Mukta", sans-serif; */
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    background: #f3f1ff;
+}
+/* navber*/
+header {
+    height: 94px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    display: grid;
+    justify-content: center;
+    background: #562eff;
+}
+nav {
+    width: 930px;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    color: #f3f1ff;
+}
+.logo img {
+    height: 51px;
+    width: 40.424137115478516px;
+    left: 285px;
+    top: 26px;
+    border-radius: 0px;
+    padding: 0;
+    margin: 0;
+    padding-right: 25px;
+}
+.nav-item {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    justify-content: space-around;
+}
+.nav-item a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: #f3f1ff;
+    font-weight: 200;
+}
+
+/* middle */
+main {
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #562eff;
+}
+.member {
+    width: 870px;
+    height: 679px;
+    background-color: #ffffff;
+    padding: 69px 30px;
+    border-radius: 5px;
+}
+.player-profile {
+    padding: 0 30px;
+}
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player {
+    display: flex;
+    align-items: center;
+}
+.player img {
+    width: 56px;
+    height: 56px;
+    padding: 0 10px;
+}
+h4 {
+    font-weight: 500;
+    font-size: 18px;
+    font-weight: 500;
+}
+hr {
+    margin: 60px 30px;
+}
+
+/* blog part */
+.blog {
+    padding: 0px 30px;
+}
+.blog-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+}
+.blog-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding: 15px 0;
+}
+.blog-img img {
+    /* position: absolute; */
+    width: 177px;
+    height: 117px;
+    padding-right: 10px;
+}
+.blog-title h4 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+.blog-title p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0;
+}
+.blog-title p a {
+    text-decoration: none;
+}
+/* footer part */
+.footer-part {
+    padding-top: 21px;
+}
+.footer {
+    height: 362px;
+    width: 870px;
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 0px 30px 20px;
+}
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    padding: 0px 30px 20px;
+}
+.course-name {
+    left: 21.74%;
+    right: 60.73%;
+    top: 73.77%;
+    bottom: 4.12%;
+    box-shadow: 5px 5.342289924621582px 10px 0px #0000000d;
+    padding: 0 11px;
+    filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
+}
+.course-name img {
+    width: 224px;
+    height: 104px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rating {
+    border-radius: 0px;
+    padding-right: 10px;
+    color: #ffc014;
+    left: 326.365966796875px;
+    top: 1131.05419921875px;
+    border-radius: 0px;
+}
+.fa-star {
+    height: 11.808359146118164px;
+    width: 12.387435913085938px;
+    left: 373.111083984375px;
+    top: 1131.0541381835938px;
+    border-radius: 0px;
+}
+.time {
+    /* padding-right: 12px; */
+    height: 29.382596969604492px;
+    width: 94.82565307617188px;
+    left: 458.5772705078125px;
+    top: 1020.376220703125px;
+    border-radius: 14.691296577453613px;
+    background: #ffe4e8;
+    border-radius: 14.6913px;
+    text-align: center;
+    color: #ff4a60;
+}
+.fa-clock {
+    height: 20.033588409423828px;
+    width: 20.033588409423828px;
+    left: 463.919677734375px;
+    top: 1128.3829345703125px;
+    border-radius: 0;
+    padding-top: 6px;
+}
+.time span {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 20.033588409423828px;
+    width: 57.429622650146484px;
+    left: 489.3740234375px;
+    top: 1128.3829345703125px;
+    border-radius: nullpx;
+}
